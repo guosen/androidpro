@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_m"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#ffffffff"
+            android:textSize="20.0dip" />
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/aboutus" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/indexframe_l"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_ipaddress"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/ip_inquiry"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_telnum"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/tel_num_inquiry"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_trains"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/tickets_inquiry"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_weather"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/weather_inquiry"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_exchange"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/exchange_rate_transform"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_licenseplate"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/license_plate_inquiry"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/item7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_ex"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/express_delivery_inquiry"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_id"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/id_inquiry"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_translate"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/translate_inquiry"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/item10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_conversion"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/unit_conversion"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_zipcode"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/code_inquiry"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/item12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:background="@drawable/main_item_selector"
+                android:drawableTop="@drawable/ic_data"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/calendar"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
