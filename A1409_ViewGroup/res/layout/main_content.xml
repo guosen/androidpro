@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_back"
+            android:onClick="showMenu"
+            />
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/top_bar_divider"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑马新闻"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="钓鱼岛是中国的"
+        android:textSize="44sp"
+        android:gravity="center"
+        />
+</LinearLayout>

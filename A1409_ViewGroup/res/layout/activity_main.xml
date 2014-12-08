@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.a1409_viewgroup.SlideView
+        android:id="@+id/slideview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <!-- 在自定义的ViewGroup中放置两个布局. 一个是菜单布局, 一个是主界面布局 -->
+        <include layout="@layout/menu"/>
+        <include layout="@layout/main_content"/>
+        
+    </com.example.a1409_viewgroup.SlideView>
+
+</RelativeLayout>
